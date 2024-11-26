@@ -27,6 +27,8 @@ body {
 
 /* PROFILE PICTURE AND BANNER PLUS STATUS */
 .pfp {
+    background-image: url("./components/assets/pfp.jpg");
+    background-size: contain;
     top: 130px;
     left: 30px;
     border: solid 10px #16002C;
