@@ -1,0 +1,107 @@
+/* OMG FONT */
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Sevillana&display=swap');
+
+/* BODY */
+body {
+    background-color: rgb(22, 22, 29);
+}
+
+/* CONTAINER */
+#container {
+    width: 608px;
+    height: 788px;
+    border-radius: 8px;
+    background-image: linear-gradient(to top, rgb(129, 0, 0), rgb(0, 0, 119)) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-container {
+    margin: auto;
+    width: 600px;
+    height: 780px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+/* PROFILE PICTURE AND BANNER PLUS STATUS */
+.pfp {
+    top: 130px;
+    left: 30px;
+    border: solid 10px #16002C;
+    position: absolute;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+    background-image: url("./components/assets/banner.jpg");
+    background-size: cover;
+}
+
+.status {
+    margin: 225px 0 0 125px;
+    height: 27px;
+    width: 27px;
+    background-color: maroon;
+    border-radius: 50%;
+    position: absolute;
+    border: solid 8px rgb(16, 5, 34);
+}
+
+/* TEXT */
+.text {
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    opacity: 0.8;
+    color: white;
+    position: absolute;
+    top: 275px;
+    left: 30px;
+}
+
+.subtext {
+    font-weight: 200;
+    opacity: 0.9;
+    text-transform: lowercase;
+    font-size: 12px;
+    position: absolute;
+    top: 320px;
+    left: 30px;
+}
+
+/* INNER CONTAINER */
+.inner {
+    margin: auto;
+    margin-top: 25%;
+    height: 53%;
+    width: 95%;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.432);
+    overflow: auto;
+}
+
+.header-inner {
+    font-family: "Parkinsans", sans-serif;
+    font-weight: 100;
+    margin: 5px 0 0 10px;
+    color: white;
+}
+
+hr {
+    width: 95%;
+    opacity: 0.2;
+}
+
+.inner-text {
+    font-family: "Parkinsans", sans-serif;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
