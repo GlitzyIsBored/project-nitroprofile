@@ -1,5 +1,5 @@
 const ProfilePicture = () => (
-  <img className="pfp" style={{borderRadius: "50%", width: "140px", height: "140px"}}/>
+  <img className="pfp" style={{borderRadius: "50%", width: "125px", height: "125px"}}/>
 );
 
 export default ProfilePicture;

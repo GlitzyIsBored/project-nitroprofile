@@ -11,7 +11,7 @@ body {
     width: 608px;
     height: 788px;
     border-radius: 8px;
-    background-image: linear-gradient(to top, rgb(129, 0, 0), rgb(0, 0, 119)) !important;
+    background-image: linear-gradient(to top, #750000, #a652be) !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,34 +22,36 @@ body {
     width: 600px;
     height: 780px;
     border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.459);
+    background-color: rgba(0, 0, 0, 0.65);
 }
 
 /* PROFILE PICTURE AND BANNER PLUS STATUS */
 .pfp {
     background-image: url("./components/assets/pfp.jpg");
     background-size: contain;
-    top: 130px;
+    top: 138px;
     left: 30px;
-    border: solid 10px #16002C;
+    border: solid 10px #35142F;
     position: absolute;
 }
 
 .banner {
     width: 100%;
-    height: 200px;
+    height: 210px;
     background-image: url("./components/assets/banner.jpg");
     background-size: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .status {
-    margin: 225px 0 0 125px;
+    margin: 218px 0 0 115px;
     height: 27px;
     width: 27px;
     background-color: maroon;
     border-radius: 50%;
     position: absolute;
-    border: solid 8px rgb(16, 5, 34);
+    border: solid 8px rgb(46, 19, 36);
 }
 
 /* TEXT */
@@ -78,7 +80,7 @@ body {
 /* INNER CONTAINER */
 .inner {
     margin: auto;
-    margin-top: 25%;
+    margin-top: 24%;
     height: 53%;
     width: 95%;
     border-radius: 8px;
